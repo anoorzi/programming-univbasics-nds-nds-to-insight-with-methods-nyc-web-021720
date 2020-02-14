@@ -7,6 +7,14 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   var = directors_totals(director_data)
+  total = 0
+  count = 0
+  while count < var.length do
+    total += var[count]
+  end
+
+
+
 
 end
 
