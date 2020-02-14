@@ -47,9 +47,3 @@ while count < director_data.length
 
 end
 end
-
-
-
-
-
-
