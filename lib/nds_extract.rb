@@ -50,13 +50,6 @@ end
 
 
 
-var = directors_totals(director_data)
-total = 0
-count = 0
-while count < var.length do
-  total += var[count]
-  count += 1
-end
 
 
 
