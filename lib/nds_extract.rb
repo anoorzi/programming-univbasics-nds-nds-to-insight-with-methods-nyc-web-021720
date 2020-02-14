@@ -11,11 +11,12 @@ def gross_for_director(director_data)
   count = 0
   while count < var.length do
     total += var[count]
+    count += 1
   end
 
 
 
-
+  total
 end
 
 # Write a method that, given an NDS creates a new Hash
