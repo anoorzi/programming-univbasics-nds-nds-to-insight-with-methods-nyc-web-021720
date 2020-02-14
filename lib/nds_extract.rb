@@ -5,19 +5,7 @@ require 'directors_database'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-def gross_for_director(director_data)
-  var = directors_totals(director_data)
-  total = 0
-  count = 0
-  while count < var.length do
-    total += var[count]
-    count += 1
-  end
 
-
-
-  total
-end
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
@@ -48,4 +36,19 @@ def directors_totals(nds)
 
 
   result
+end
+
+
+def gross_for_director(director_data)
+  var = directors_totals(director_data)
+  total = 0
+  count = 0
+  while count < var.length do
+    total += var[count]
+    count += 1
+  end
+
+
+
+  total
 end
