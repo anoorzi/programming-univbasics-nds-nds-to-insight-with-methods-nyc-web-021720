@@ -40,15 +40,24 @@ end
 
 
 def gross_for_director(director_data)
-  var = directors_totals(director_data)
-  total = 0
-  count = 0
-  while count < var.length do
-    total += var[count]
-    count += 1
-  end
+count = 0
+while count < director_data.length
+  puts director_data[count]
+  count += 1
 
-
-
-  total
 end
+end
+
+
+
+var = directors_totals(director_data)
+total = 0
+count = 0
+while count < var.length do
+  total += var[count]
+  count += 1
+end
+
+
+
+total
