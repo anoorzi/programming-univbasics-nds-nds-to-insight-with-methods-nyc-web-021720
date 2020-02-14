@@ -38,7 +38,6 @@ def directors_totals(nds)
   result
 end
 
-nds[rows][:movies][columns][:worldwide_gross]
 def gross_for_director(director_data)
   total =0
   count = 0
