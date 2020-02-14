@@ -40,10 +40,5 @@ end
 
 
 def gross_for_director(director_data)
-count = 0
-while count < director_data.length
-  puts director_data[count]
-  count += 1
-
-end
+pp director_data
 end
